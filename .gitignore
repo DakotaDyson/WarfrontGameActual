@@ -1,14 +1,19 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
+# Unreal build/derived
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+DerivedDataCacheBoot.ddc
+
+# IDE clutter
+.vs/
 *.VC.db
-*.opensdf
-*.opendb
-*.sdf
+*.VC.opendb
 *.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# If you generate packaged builds here, ignore them:
+# Build/ or Releases/
